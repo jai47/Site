@@ -17,6 +17,11 @@ function Cls(){
     string.value = "";
 }
 
+body.addEventListener('keyup', (e) =>{
+    if(e.keyCode === 16)
+        Cls();
+})
+
 function Del(){
     string.value = string.value.slice(0,-1);
 }
