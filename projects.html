@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BirdzMusix</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+
+<body>
+
+
+    <header id="head">
+        <div class="logo">
+            <a href="index.html">
+                <img id="logo_img" src="images/logo.png" alt="BirdzMusix">
+                <span>BirdzMusix</span>
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="lst">
+                    <a href="index.html">
+                        <i class='bx bx-home-alt-2'></i>
+                        <p class="txt">Home</p>
+                    </a>
+                </li>
+                <li class="lst">
+                    <a href="projects.html">
+                        <i class='bx bxs-bar-chart-alt-2'></i>
+                        <p class="txt">Projects</p>
+                    </a>
+                </li>
+                <li class="lst">
+                    <a href="#">
+                        <i class='bx bx-code-alt'></i>
+                        <p class="txt">Repositories</p>
+                    </a>
+                </li>
+                <li class="lst">
+                    <a href="Chat/chat_index.html">
+                        <i class='bx bx-message-dots'></i>
+                        <p class="txt">Chat</p>
+                    </a>
+                </li>
+                <li class="lst">
+                    <a href="#">
+                        <i class='bx bxs-phone-call'></i>
+                        <p class="txt">Contact me</p>
+                    </a>
+                </li>
+                <li class="lst" id="mode">
+                    <i class='bx bxs-moon' style="color: white;">
+                        <p class=" txt">Mode</p>
+                        <button type=" button" onclick="togglebtn()" id="btn" class="btn">
+                            <span></span>
+                        </button>
+                    </i>
+                </li>
+            </ul>
+        </div>
+
+        <button id="xnd" class="btnexp" onclick="exapnd()"><i class='bx bx-chevron-right'></i></box-icon></button>
+    </header>
+
+    <main>  
+        <div class="cal">
+            <h1>Calculator</h1>
+            <p>I have made a calculator application using basic HTML, CSS and JavaScript
+                <a href="/Calculator/cal-index.html" target="_blank">Click me</a></p>                
+        </div>
+        <div class="chat">
+            <h1>Chatting Application</h1>
+        </div>
+    </main>
+
+    <footer id="foot">
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Repositories</a></li>
+                <li><a href="#">Follow me</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
