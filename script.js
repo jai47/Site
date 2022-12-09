@@ -26,7 +26,7 @@ function exapnd() {
 function togglebtn() {
     logo_img.classList.toggle("light_logo");
     btn.classList.toggle("active");
-    // document.getElementById("mode").innerHTML = "<i class='bx bxs-sun' style='color: white;'><p class=' txt'>Mode</p><button type=' button' onclick='togglebtn()' id='btn' class='btn'><span></span></button></i>";
+    document.getElementById("moon").classList.toggle("bxs-sun");
     bdy.classList.toggle("light_body");
     hed.classList.toggle("light_hf");
     fot.classList.toggle("light_hf");

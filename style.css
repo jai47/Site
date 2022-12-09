@@ -111,6 +111,7 @@ header {
     transition: background 0.3s, left 0.4s, opacity 1s;
 }
 
+
 button span {
     margin-left: 1px;
     display: block;
@@ -128,11 +129,11 @@ button span {
 }
 
 .active {
-    background: rgb(113, 116, 113);
+    background: rgb(255, 242, 209);
 }
 
 .active span {
-    background: #fff;
+    background: goldenrod;
     margin-left: 19px
 }
 
