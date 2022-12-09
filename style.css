@@ -30,7 +30,7 @@ header {
 .logo a {
     display: flex;
     font-size: 20px;
-    color: gold;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -84,9 +84,6 @@ header {
 .nav li a {
     color: antiquewhite;
     text-decoration: none;
-}
-
-.nav li a {
     position: relative;
     bottom: 4px;
     right: 3px;
@@ -126,9 +123,8 @@ button span {
 }
 
 .content {
-    margin-top: 40px;
-    margin-left: 220px;
-    margin-right: 30px;
+    padding: 150px;
+    padding-bottom: 30px;
 }
 
 .active {
@@ -174,4 +170,95 @@ button span {
     left: 110px;
     visibility: visible;
     opacity: 100;
+}
+
+
+/* social media element styling */
+
+.social-media{
+    margin-top: 50px;
+}
+
+.social-text{
+    color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#share{
+    margin: auto;
+    border-bottom: 1px solid goldenrod;
+    width: 300px;
+    font-size: 25px;
+    transition: font-size 0.3s;
+}
+.social-media ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    list-style: none;
+    background-color: #23262e;
+    padding: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: antiquewhite;
+    transition: width 0.2s, heigth 0.2s, background-color 0.3s;
+}
+
+.icon:hover{
+    background-color: #3f4453;
+    color: goldenrod;
+}
+
+#share:hover{
+    font-size: 30px;
+}
+
+/* Footer styling */
+
+.foot {
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80%;
+    margin: auto;
+}
+
+.foot ul{
+    display: flex;
+}
+
+.foot ul li{
+    position: relative;
+    top: 20px;
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.foot ul img{
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+
+.foot ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.foot ul li a:hover{
+    color: goldenrod;
 }
