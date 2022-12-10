@@ -26,6 +26,7 @@ function togglebtn() {
     btn.classList.toggle("active");
     document.getElementById("moon").classList.toggle("bxs-sun");
     document.getElementById("logo_img").classList.toggle("logo_img_dark");
+    document.getElementById("content").classList.toggle("content-light");
     bdy.classList.toggle("light_body");
     hed.classList.toggle("light_hf");
     fot.classList.toggle("light_hf");

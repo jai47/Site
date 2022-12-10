@@ -137,9 +137,18 @@ button span {
 }
 
 /* continue cinverting px to vh */
-.content {
+.content-dark{
     padding: 150px;
     padding-bottom: 30px;
+    color: rgb(184, 184, 184);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    word-spacing: 5px;
+    transition: color 0.1s;
+}
+
+.content-light{
+    color: black;
 }
 
 .active {
