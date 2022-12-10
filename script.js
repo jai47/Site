@@ -3,7 +3,6 @@ let bdy = document.getElementById("body");
 let hed = document.getElementById("head");
 let fot = document.getElementById("foot");
 let xnd = document.getElementById("xnd");
-let logo_img = document.getElementById("logo_img");
 
 let lst = document.getElementsByClassName("lst");
 let txt = document.getElementsByClassName("txt");
@@ -24,9 +23,9 @@ function exapnd() {
 
 
 function togglebtn() {
-    logo_img.classList.toggle("light_logo");
     btn.classList.toggle("active");
     document.getElementById("moon").classList.toggle("bxs-sun");
+    document.getElementById("logo_img").classList.toggle("logo_img_dark");
     bdy.classList.toggle("light_body");
     hed.classList.toggle("light_hf");
     fot.classList.toggle("light_hf");

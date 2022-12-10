@@ -5,6 +5,7 @@
 }
 
 body {
+    display: flex;
     margin: 0px;
     height: 100%;
     width: 100%;
@@ -16,7 +17,7 @@ header {
     background: #23262e;
     position: absolute;
     top: 0;
-    width: 80px;
+    width: 12vh;
     height: 100%;
     transition: background 0.3s, width 0.5s;
 }
@@ -29,41 +30,43 @@ header {
 
 .logo a {
     display: flex;
-    font-size: 20px;
+    font-size: 3.5vh;
     color: whitesmoke;
     text-decoration: none;
 }
 
 #logo_img {
-    padding-top: 9px;
-    height: 70px;
+    padding-top: 2vh;
+    height: 10vh;
     filter: brightness(0) invert(1);
-    margin-left: 6px;
+    margin-left: 1.5vh;
     transition: filter 0.4s;
+}
+.logo_img_dark {
+    filter: brightness(0);
 }
 
 .logo span {
-    padding-top: 28px;
-    padding-left: 15px;
+    padding-top: 3vh;
+    padding-left: 2vh;
     font-weight: 900;
 }
 
 .btnexp {
-    height: 30px;
-    width: 30px;
+    height: 4.5vh;
+    width: 4.5vh;
     border-radius: 50%;
     border: none;
     background: antiquewhite;
     position: relative;
     top: 8%;
-    left: 65px;
+    left: 10vh;
     transition: left 0.5s;
 }
 
 .nav ul {
     position: relative;
-    left: px;
-    margin-top: 120px;
+    margin-top: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,10 +74,10 @@ header {
 
 .lst {
     background: #373c48;
-    padding: 20px;
-    height: 50px;
-    margin-top: 15px;
-    width: 50px;
+    padding: 3vh;
+    height: 7.5vh;
+    width: 7.5vh;
+    margin-top: 2vh;
     border-radius: 50%;
     cursor: pointer;
     list-style: none;
@@ -85,25 +88,25 @@ header {
     color: antiquewhite;
     text-decoration: none;
     position: relative;
-    bottom: 4px;
-    right: 3px;
+    bottom: 0.4vh;
+    right: 0.4vh;
 }
 
 .txt {
     position: relative;
-    bottom: 20px;
+    bottom: 3vh;
     opacity: 0;
-    left: 30px;
-    transition: opacity 0.2s, left 0.5s;
+    left: 0.5vh;
+    transition: opacity 0.2s, left 0.4s;
 }
 
 .btn {
     position: relative;
-    bottom: 38px;
-    left: 50px;
-    padding: 3px;
-    width: 40px;
-    border-radius: 50px;
+    bottom: 6.2vh;
+    left: 5vh;
+    padding: 0.4vh;
+    width: 6vh;
+    border-radius: 5vh;
     border: #23262e;
     cursor: pointer;
     visibility: hidden;
@@ -113,16 +116,27 @@ header {
 
 
 button span {
-    margin-left: 1px;
+    margin-left: 0.1vh;
     display: block;
-    height: 14px;
-    width: 14px;
+    height: 2.1vh;
+    width: 2.1vh;
     background: rgb(113, 116, 113);
     border-radius: 50%;
     transition: background 0.3s;
     transition: margin-left 0.3s;
 }
 
+.scroll{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+/* continue cinverting px to vh */
 .content {
     padding: 150px;
     padding-bottom: 30px;
