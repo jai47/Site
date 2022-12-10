@@ -35,15 +35,25 @@ header {
     text-decoration: none;
 }
 
-#logo_img {
+.logo_img {
     padding-top: 2vh;
     height: 10vh;
     filter: brightness(0) invert(1);
     margin-left: 1.5vh;
     transition: filter 0.4s;
 }
+
+.logo_txt{
+    color: whitesmoke;
+    transition: color 0.5s;
+}
+
+.logo_txt_dark{
+    color: rgb(0, 0, 0);
+}
+
 .logo_img_dark {
-    filter: brightness(0);
+    filter: brightness(0) invert(0);
 }
 
 .logo span {
