@@ -9,12 +9,12 @@ body {
     margin: 0px;
     height: 100%;
     width: 100%;
-    background: #373c48;
+    background: linear-gradient(-45deg, black, grey);
     transition: background 0.3s;
 }
 
 header {
-    background: #23262e;
+    background: linear-gradient(60deg, grey,black);
     position: absolute;
     top: 0;
     width: 12vh;
@@ -94,6 +94,10 @@ header {
     transition: width 0.4s, border-radius 0.4s;
 }
 
+.lst-light{
+    background: linear-gradient(45deg, rgb(93, 93, 93), rgb(93, 93, 93), rgba(160, 160, 160, 0.747));
+}
+
 .nav li a {
     color: antiquewhite;
     text-decoration: none;
@@ -150,11 +154,11 @@ button span {
 .content-dark{
     padding: 150px;
     padding-bottom: 30px;
-    color: rgb(184, 184, 184);
+    color: rgb(238, 238, 238);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     word-spacing: 5px;
-    transition: color 0.1s;
+    transition: color 0.4s;
 }
 
 .content-light{
@@ -175,7 +179,7 @@ button span {
 }
 
 .light_hf {
-    background: #aaa8a3;
+    background: linear-gradient(180deg, rgb(133, 133, 133),#8a8a8a,#aaa8a39f)
 }
 
 .light_logo {

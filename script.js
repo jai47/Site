@@ -28,6 +28,9 @@ function togglebtn() {
     document.getElementById("logo_img").classList.toggle("logo_img_dark");
     document.getElementById("logo_txt").classList.toggle("logo_txt_dark");
     document.getElementById("content").classList.toggle("content-light");
+    Array.from(document.getElementsByClassName("lst")).forEach(Element => {
+        Element.classList.toggle("lst-light");
+    })
     bdy.classList.toggle("light_body");
     hed.classList.toggle("light_hf");
     fot.classList.toggle("light_hf");
