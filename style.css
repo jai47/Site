@@ -45,7 +45,7 @@ header {
 
 .logo_txt{
     color: whitesmoke;
-    transition: color 0.5s;
+    transition: color 1s;
 }
 
 .logo_txt_dark{
@@ -98,7 +98,11 @@ header {
     background: linear-gradient(45deg, rgb(93, 93, 93), rgb(93, 93, 93), rgba(160, 160, 160, 0.747));
 }
 
-.nav li a {
+.lst a i{
+    font-size: 2.5vh;
+}
+
+.lst a {
     color: antiquewhite;
     text-decoration: none;
     position: relative;
