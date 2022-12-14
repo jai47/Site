@@ -12,9 +12,9 @@ const getDeviceType = () => {
     alert("Use a computer for better UI");
   }
 };
-
-
 getDeviceType();
+
+
 let btn = document.getElementById("btn");
 let bdy = document.getElementById("body");
 let hed = document.getElementById("head");
