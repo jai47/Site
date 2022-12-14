@@ -9,7 +9,7 @@ body {
     margin: 0px;
     height: 100%;
     width: 100%;
-    background: linear-gradient(-45deg, black, grey);
+    background: linear-gradient(-45deg, rgb(0, 0, 0), grey);
     transition: background 0.3s;
 }
 

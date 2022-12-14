@@ -6,6 +6,10 @@ function display(num) {
 
 function cal(){
     try{
+        if(string.value.includes("%")){
+            let ans = Number(string.value.slice(0,string.value.indexOf("%"))) * Number(string.value.slice(string.value.indexOf("%")+1)) /100 ;
+            string.value = ans;
+        }
         string.value = eval(string.value);
     }
     catch(err) {
