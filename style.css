@@ -19,6 +19,7 @@ header {
     top: 0;
     width: 12vh;
     height: 100%;
+    z-index: 4;
     transition: background 0.3s, width 0.5s;
 }
 
@@ -46,7 +47,25 @@ header {
 .logo_txt{
     color: whitesmoke;
     transition: color 1s;
+    z-index: 1;
 }
+
+/* .logo_txt::after{
+    content: '';
+    display: block;
+    background: linear-gradient(90deg, black, gray);
+    position: relative;
+    bottom: 7vh;
+    right: 2.2vh;
+    z-index: -1;
+    height: 11vh;
+    width: 0vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo_txt:hover::after{
+    width: 182vh;
+} */
 
 .logo_txt_dark{
     color: rgb(0, 0, 0);
@@ -152,6 +171,14 @@ button span {
 
 .scroll::-webkit-scrollbar{
     display: none;
+}
+
+.sicky-bar{
+    background: linear-gradient(-90deg, grey, rgb(0, 0, 0));
+    height: 9vh;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 /* continue cinverting px to vh */
@@ -295,6 +322,23 @@ button span {
     z-index: -1;
 }
 
+.foot ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    background: goldenrod;
+    transition: all 0.3s ease-in-out;
+}
+
+.foot ul li a:hover::after{
+    width: 100%;
+}
+
+
+
 .foot ul li a{
     color: antiquewhite;
     text-decoration: none;
@@ -303,4 +347,5 @@ button span {
 
 .foot ul li a:hover{
     color: goldenrod;
+    
 }
