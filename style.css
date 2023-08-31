@@ -223,6 +223,7 @@ button span {
 
 .expbtn {
     left: 185px;
+    rotate: 180deg;
 }
 
 .expnav {
